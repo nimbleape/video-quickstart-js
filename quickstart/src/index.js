@@ -1,6 +1,7 @@
 'use strict';
 
 var Video = require('twilio-video');
+var callstats = require('callstats-twiliovideojs');
 
 var activeRoom;
 var previewTracks;
@@ -78,6 +79,8 @@ $.getJSON('/token', function(data) {
 
 // Successfully connected!
 function roomJoined(room) {
+  callstats(room, false, 'api-key', 'api-secret');
+
   window.room = activeRoom = room;
 
   log("Joined as '" + identity + "'");
