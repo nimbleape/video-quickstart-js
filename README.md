@@ -8,8 +8,8 @@ own video apps with Twilio Video. Before we begin, we need to collect
 all the config values we need to run the application:
 
 * Account SID: Your primary Twilio account identifier - find this [in the console here](https://www.twilio.com/console).
-* API Key: Used to authenticate - [generate one here](https://www.twilio.com/console/video/dev-tools/api-keys).
-* API Secret: Used to authenticate - [just like the above, you'll get one here](https://www.twilio.com/console/video/dev-tools/api-keys).
+* API Key: Used to authenticate - [generate one here](https://www.twilio.com/console/runtime/api-keys).
+* API Secret: Used to authenticate - [just like the above, you'll get one here](https://www.twilio.com/console/runtime/api-keys).
 
 ## A Note on API Keys
 
@@ -45,11 +45,6 @@ video in both the tabs!
 
 ## Examples
 
-The project contains some common use-case examples for the Twilio Video JS SDK.
-
-* [Media Device Selection](http://localhost:3000/mediadevices)
-* [Local Video Snapshot](http://localhost:3000/localvideosnapshot)
-
-## License
-
-MIT
+The project contains some use-case examples for the Twilio Video JS SDK. After running the application
+by following the instructions above, go to [http://localhost:3000/examples](http://localhost:3000/examples)
+to try them out.
