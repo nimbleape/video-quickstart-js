@@ -1,7 +1,7 @@
 'use strict';
 
 var Video = require('twilio-video');
-var callstats = require('callstats-twiliovideojs');
+var callstats = require('callstats-twilio-video');
 
 var activeRoom;
 var previewTracks;
